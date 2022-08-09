@@ -155,3 +155,55 @@ section img#mountains_front
     font-size:1em;
     color: #fff;
 }
+
+footer
+{  
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+footer .logo
+{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+footer ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+footer ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+footer ul li a:hover,
+footer ul li a.active
+{
+    background: #fff;
+    color: #2b1055;
+
+}
